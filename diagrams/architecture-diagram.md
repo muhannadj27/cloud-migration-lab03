@@ -1,0 +1,17 @@
+```mermaid
+graph TD
+    Users --> Firewall
+    Firewall --> Router
+    Router --> WebServer
+    WebServer --> Database
+    WebServer --> FileStorage
+    WebServer --> EmailServer
+
+    subgraph On-Premises Data Center
+        Firewall
+        Router
+        WebServer[Monolithic Web Application]
+        Database[SQL Database Server]
+        FileStorage[Local File Storage]
+        EmailServer[Email Server]
+    end
