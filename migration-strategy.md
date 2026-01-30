@@ -1,9 +1,4 @@
 
----
-
-## 6️⃣ migration-strategy.md (UPLOAD THIS)
-
-```markdown
 # Migration Strategies
 
 ## Web Application
